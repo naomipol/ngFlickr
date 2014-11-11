@@ -1,0 +1,178 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'karma-phantomjs-launcher',
+1 verbose cli   'karma-jasmine',
+1 verbose cli   'grunt-karma',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json ngflickr@0.0.0 No description
+5 warn package.json ngflickr@0.0.0 No repository field.
+6 warn package.json ngflickr@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'karma-phantomjs-launcher', null ]
+9 verbose cache add name=undefined spec="karma-phantomjs-launcher" args=["karma-phantomjs-launcher",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'karma-phantomjs-launcher',
+10 verbose parsed url   path: 'karma-phantomjs-launcher',
+10 verbose parsed url   href: 'karma-phantomjs-launcher' }
+11 verbose cache add [ 'karma-jasmine', null ]
+12 verbose cache add name=undefined spec="karma-jasmine" args=["karma-jasmine",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'karma-jasmine',
+13 verbose parsed url   path: 'karma-jasmine',
+13 verbose parsed url   href: 'karma-jasmine' }
+14 verbose cache add [ 'grunt-karma', null ]
+15 verbose cache add name=undefined spec="grunt-karma" args=["grunt-karma",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'grunt-karma',
+16 verbose parsed url   path: 'grunt-karma',
+16 verbose parsed url   href: 'grunt-karma' }
+17 silly lockFile e0cbf986-karma-phantomjs-launcher karma-phantomjs-launcher
+18 verbose lock karma-phantomjs-launcher /home/naomi/.npm/e0cbf986-karma-phantomjs-launcher.lock
+19 silly lockFile df56d5e8-karma-jasmine karma-jasmine
+20 verbose lock karma-jasmine /home/naomi/.npm/df56d5e8-karma-jasmine.lock
+21 silly lockFile 707ccff9-grunt-karma grunt-karma
+22 verbose lock grunt-karma /home/naomi/.npm/707ccff9-grunt-karma.lock
+23 silly lockFile e0cbf986-karma-phantomjs-launcher karma-phantomjs-launcher
+24 silly lockFile e0cbf986-karma-phantomjs-launcher karma-phantomjs-launcher
+25 silly lockFile df56d5e8-karma-jasmine karma-jasmine
+26 silly lockFile df56d5e8-karma-jasmine karma-jasmine
+27 silly lockFile 707ccff9-grunt-karma grunt-karma
+28 silly lockFile 707ccff9-grunt-karma grunt-karma
+29 verbose addNamed [ 'karma-phantomjs-launcher', '' ]
+30 verbose addNamed [ null, '*' ]
+31 silly lockFile cdd40d81-karma-phantomjs-launcher karma-phantomjs-launcher@
+32 verbose lock karma-phantomjs-launcher@ /home/naomi/.npm/cdd40d81-karma-phantomjs-launcher.lock
+33 verbose addNamed [ 'karma-jasmine', '' ]
+34 verbose addNamed [ null, '*' ]
+35 silly lockFile a9316641-karma-jasmine karma-jasmine@
+36 verbose lock karma-jasmine@ /home/naomi/.npm/a9316641-karma-jasmine.lock
+37 verbose addNamed [ 'grunt-karma', '' ]
+38 verbose addNamed [ null, '*' ]
+39 silly lockFile 94531edb-grunt-karma grunt-karma@
+40 verbose lock grunt-karma@ /home/naomi/.npm/94531edb-grunt-karma.lock
+41 silly addNameRange { name: 'karma-phantomjs-launcher', range: '*', hasData: false }
+42 silly addNameRange { name: 'karma-jasmine', range: '*', hasData: false }
+43 silly addNameRange { name: 'grunt-karma', range: '*', hasData: false }
+44 verbose url raw karma-phantomjs-launcher
+45 verbose url resolving [ 'https://registry.npmjs.org/', './karma-phantomjs-launcher' ]
+46 verbose url resolved https://registry.npmjs.org/karma-phantomjs-launcher
+47 info trying registry request attempt 1 at 11:41:49
+48 verbose etag "66UFY5MR6A83JYRYD5F5XPBQP"
+49 http GET https://registry.npmjs.org/karma-phantomjs-launcher
+50 verbose url raw karma-jasmine
+51 verbose url resolving [ 'https://registry.npmjs.org/', './karma-jasmine' ]
+52 verbose url resolved https://registry.npmjs.org/karma-jasmine
+53 info trying registry request attempt 1 at 11:41:49
+54 verbose etag "201F5M68EPO32ALQ0IWSKZONA"
+55 http GET https://registry.npmjs.org/karma-jasmine
+56 verbose url raw grunt-karma
+57 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-karma' ]
+58 verbose url resolved https://registry.npmjs.org/grunt-karma
+59 info trying registry request attempt 1 at 11:41:49
+60 verbose etag "C7C1NSROEPSWFY3A0OUU8NXA2"
+61 http GET https://registry.npmjs.org/grunt-karma
+62 info retry will retry, error on last attempt: Error: read ECONNRESET
+63 info retry will retry, error on last attempt: Error: read ECONNRESET
+64 http 304 https://registry.npmjs.org/grunt-karma
+65 silly registry.get cb [ 304,
+65 silly registry.get   { date: 'Mon, 10 Nov 2014 09:41:55 GMT',
+65 silly registry.get     server: 'Apache',
+65 silly registry.get     via: '1.1 varnish',
+65 silly registry.get     'last-modified': 'Mon, 10 Nov 2014 09:41:55 GMT',
+65 silly registry.get     'cache-control': 'max-age=60',
+65 silly registry.get     etag: '"C7C1NSROEPSWFY3A0OUU8NXA2"',
+65 silly registry.get     age: '6',
+65 silly registry.get     'x-served-by': 'cache-fra1240-FRA',
+65 silly registry.get     'x-cache': 'HIT',
+65 silly registry.get     'x-cache-hits': '1',
+65 silly registry.get     'x-timer': 'S1415612515.445732,VS0,VE0',
+65 silly registry.get     vary: 'Accept',
+65 silly registry.get     'content-length': '0',
+65 silly registry.get     'keep-alive': 'timeout=10, max=50',
+65 silly registry.get     connection: 'Keep-Alive' } ]
+66 verbose etag grunt-karma from cache
+67 silly addNameRange number 2 { name: 'grunt-karma', range: '*', hasData: true }
+68 silly addNameRange versions [ 'grunt-karma',
+68 silly addNameRange   [ '0.3.0',
+68 silly addNameRange     '0.4.0',
+68 silly addNameRange     '0.4.1',
+68 silly addNameRange     '0.4.2',
+68 silly addNameRange     '0.4.3',
+68 silly addNameRange     '0.4.4',
+68 silly addNameRange     '0.5.0',
+68 silly addNameRange     '0.4.5',
+68 silly addNameRange     '0.5.1',
+68 silly addNameRange     '0.5.2',
+68 silly addNameRange     '0.4.6',
+68 silly addNameRange     '0.5.3',
+68 silly addNameRange     '0.5.4',
+68 silly addNameRange     '0.6.0',
+68 silly addNameRange     '0.6.1',
+68 silly addNameRange     '0.7.0',
+68 silly addNameRange     '0.6.2',
+68 silly addNameRange     '0.7.1',
+68 silly addNameRange     '0.7.2',
+68 silly addNameRange     '0.7.3',
+68 silly addNameRange     '0.8.0',
+68 silly addNameRange     '0.8.1',
+68 silly addNameRange     '0.8.2',
+68 silly addNameRange     '0.8.3',
+68 silly addNameRange     '0.9.0' ] ]
+69 verbose addNamed [ 'grunt-karma', '0.9.0' ]
+70 verbose addNamed [ '0.9.0', '0.9.0' ]
+71 silly lockFile 1c374840-grunt-karma-0-9-0 grunt-karma@0.9.0
+72 verbose lock grunt-karma@0.9.0 /home/naomi/.npm/1c374840-grunt-karma-0-9-0.lock
+73 silly lockFile 96cf10aa-runt-karma-grunt-karma-0-9-0-tgz https://registry.npmjs.org/grunt-karma/-/grunt-karma-0.9.0.tgz
+74 verbose lock https://registry.npmjs.org/grunt-karma/-/grunt-karma-0.9.0.tgz /home/naomi/.npm/96cf10aa-runt-karma-grunt-karma-0-9-0-tgz.lock
+75 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-karma/-/grunt-karma-0.9.0.tgz',
+75 verbose addRemoteTarball   'de3d6ac478ffca350e729f3457457d5b0910e96b' ]
+76 silly lockFile 96cf10aa-runt-karma-grunt-karma-0-9-0-tgz https://registry.npmjs.org/grunt-karma/-/grunt-karma-0.9.0.tgz
+77 silly lockFile 96cf10aa-runt-karma-grunt-karma-0-9-0-tgz https://registry.npmjs.org/grunt-karma/-/grunt-karma-0.9.0.tgz
+78 silly lockFile 1c374840-grunt-karma-0-9-0 grunt-karma@0.9.0
+79 silly lockFile 1c374840-grunt-karma-0-9-0 grunt-karma@0.9.0
+80 silly lockFile 94531edb-grunt-karma grunt-karma@
+81 silly lockFile 94531edb-grunt-karma grunt-karma@
+82 error Error: EACCES, mkdir '/home/naomi/tmp/npm-11862-I9dARUpp'
+82 error  { [Error: EACCES, mkdir '/home/naomi/tmp/npm-11862-I9dARUpp']
+82 error   errno: 3,
+82 error   code: 'EACCES',
+82 error   path: '/home/naomi/tmp/npm-11862-I9dARUpp' }
+83 error Please try running this command again as root/Administrator.
+84 error System Linux 3.13.0-39-generic
+85 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "karma-phantomjs-launcher" "karma-jasmine" "grunt-karma" "--save-dev"
+86 error cwd /home/naomi/websites/ngFlickr
+87 error node -v v0.10.25
+88 error npm -v 1.3.10
+89 error path /home/naomi/tmp/npm-11862-I9dARUpp
+90 error code EACCES
+91 error errno 3
+92 error stack Error: EACCES, mkdir '/home/naomi/tmp/npm-11862-I9dARUpp'
+93 verbose exit [ 3, true ]
